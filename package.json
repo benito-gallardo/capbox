@@ -1,0 +1,30 @@
+{
+  "name": "capbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://benito-gallardo@github.com/benito-gallardo/capbox.git"
+  },
+  "author": "Benito Gallardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benito-gallardo/capbox/issues"
+  },
+  "homepage": "https://github.com/benito-gallardo/capbox#readme",
+  "scripts": {
+    "build": "gulp build",
+    "version": "npm run build && git add -A js/bin"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
